@@ -1,0 +1,25 @@
+html { 
+    background: url(trapped.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  button{
+    background: url(trapped.png) no-repeat center center fixed;
+    width: 1170px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: aqua;
+    text-shadow: 1px 1px 1px gray;
+    box-shadow: 1.3px 1.3px rgb(66, 66, 66);
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
