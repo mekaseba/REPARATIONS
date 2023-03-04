@@ -5,7 +5,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
-  button{
+  button {
     background: url(trapped.png) no-repeat center center fixed;
     width: 200px;
     height: 70px;
@@ -15,4 +15,10 @@ html {
     text-shadow: 1px 1px 1px gray;
     box-shadow: 1.3px 1.3px rgb(66, 66, 66);
     display: block;
+}
+img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
